@@ -2,8 +2,8 @@
 #push google or coreos images to dockerhub or aliyun registry,
 #change the registry name and username/password to yourself's.
 
-DOCKER_HUB=willdockerhub
-ALI_REGISTRY=registry.cn-hangzhou.aliyuncs.com/aliwill
+DOCKER_HUB=pigporketdockerhub
+ALI_REGISTRY=registry.cn-hangzhou.aliyuncs.com/alipigporket
 
 #config the following env at travis-ui
 docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
