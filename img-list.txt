@@ -1,1 +1,1 @@
-
+registry.cn-hangzhou.aliyuncs.com/liuyi01/pause-amd64:3.1
