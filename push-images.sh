@@ -3,7 +3,7 @@
 #change the registry name and username/password to yourself's.
 
 DOCKER_HUB=pigporket
-ALI_REGISTRY=registry.cn-beijing.aliyuncs.com/alipigporket
+$ALI_REGISTRY=registry.cn-beijing.aliyuncs.com/alipigporket
 
 #config the following env at travis-ui
 docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
@@ -18,5 +18,5 @@ do
 	# push到dockerhub
 	docker push $DOCKER_HUB/$imagename
 	# push到阿里云仓库
-$	docker push $ALI_REGISTRY/$imagename
+#	docker push $ALI_REGISTRY/$imagename
 done
