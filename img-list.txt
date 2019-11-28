@@ -1,1 +1,2 @@
-quay.io/coreos/flannel:v0.11.0-arm
+quay.io/coreos/flannel:v0.9.1
+
