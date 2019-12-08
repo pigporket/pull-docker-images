@@ -1,2 +1,3 @@
-quay.io/prometheus/alertmanager:v0.18.0
-quay.io/prometheus/prometheus:v2.11.0
+quay.io/coreos/configmap-reload:v0.0.1
+quay.io/coreos/prometheus-config-reloader:v0.34.0
+quay.io/coreos/prometheus-operator:v0.34.0
