@@ -1,1 +1,1 @@
-quay.io/external_storage/nfs-client-provisioner
+grafana/grafana:5.0.4
