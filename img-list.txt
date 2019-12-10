@@ -1,1 +1,2 @@
-grafana/grafana:5.0.4
+rook/ceph:master
+ceph/ceph:v14.2.1-20190430
