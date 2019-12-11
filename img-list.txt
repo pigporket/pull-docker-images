@@ -1,2 +1,2 @@
-rook/ceph:master
-ceph/ceph:v14.2.4-20190917
+rook/ceph:v0.8.3
+ceph/ceph:v13
