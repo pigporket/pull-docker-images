@@ -1,1 +1,1 @@
-prometheus:v2.7.1
+quay.io/prometheus/prometheus:v2.7.1
