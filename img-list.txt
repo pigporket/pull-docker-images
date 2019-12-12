@@ -1,2 +1,1 @@
-rook/ceph:v0.8.3
-ceph/ceph:v13
+prometheus:v2.7.1
