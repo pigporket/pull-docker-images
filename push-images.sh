@@ -12,7 +12,7 @@ docker login registry.cn-beijing.aliyuncs.com -u $ALI_USERNAME  -p $ALI_PASSWORD
 for image in $(cat img-list.txt)
 do
 	#imagename=$(echo $image | awk -F '/' '{print $NF}')
-	imagename=$(echo $image | awk -F '/' '{print $2-$3}')
+	imagename=$(echo $image | awk -F '/' '{print $2"-"$3}')
 	docker pull $image
 	docker tag $image $ALI_REGISTRY/$imagename
 	#docker tag $image $DOCKER_HUB/$imagename
